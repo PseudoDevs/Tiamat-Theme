@@ -1,0 +1,35 @@
+{
+    "name": "tiamat-theme",
+    "displayName": "Tiamat Theme",
+    "description": "Tiamat Theme inspired from the Anime, Kimi No Nawa(Your Name)",
+    "version": "0.0.1",
+    "publisher": "John Lester Legaspi",
+    "icon": "tiamat-theme-logo.jpg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PseudoDevs/Tiamat-Theme"
+    },
+    "keywords": [
+        "theme",
+        "tiamat",
+        "dark theme",
+        "iampseudox",
+        "johnlesterlegaspi"
+    ],
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tiamat Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tiamat Theme-color-theme.json"
+            }
+        ]
+    }
+   
+}
